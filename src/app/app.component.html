@@ -1,22 +1,3 @@
-<nav>
-  <ul>
-    <li>
-      <a
-        routerLink="/events"
-        routerLinkActive="active"
-        ariaCurrentWhenActive="page"
-        >Events</a
-      >
-    </li>
-    <li>
-      <a
-        routerLink="/events/form"
-        routerLinkActive="active"
-        ariaCurrentWhenActive="page"
-        >Event form</a
-      >
-    </li>
-  </ul>
-</nav>
-
+<app-sidebar />
 <router-outlet />
+<app-footer [title]="title" />

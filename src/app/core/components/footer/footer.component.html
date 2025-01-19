@@ -1,0 +1,13 @@
+<mat-toolbar class="main-footer">
+  <div>
+    <p>Current version&nbsp;: {{ version }}</p>
+  </div>
+  <div>
+    <p style="text-align: right">
+      {{ title }} &copy;{{ startYear }}-{{ currentYear }}
+      <br />
+      by
+      <a [href]="author.url">{{ author.name }}</a>
+    </p>
+  </div>
+</mat-toolbar>
