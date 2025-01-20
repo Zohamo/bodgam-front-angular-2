@@ -1,5 +1,6 @@
-<p>event-list-page works!</p>
-
-@if(events$ | async; as events) {
-<app-event-list [events]="events" />
-}
+<div class="container-fluid">
+  <h2>Events to come</h2>
+  @if(events$ | async; as events) {
+  <app-event-list [events]="events" />
+  }
+</div>
