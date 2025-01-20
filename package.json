@@ -1,6 +1,6 @@
 {
   "name": "bodgam-front-angular-2",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Huge Meeple Collider.",
   "scripts": {
     "ng": "ng",
