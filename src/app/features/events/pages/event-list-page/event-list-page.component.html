@@ -1,3 +1,5 @@
 <p>event-list-page works!</p>
 
-<app-event-list />
+@if(events$ | async; as events) {
+<app-event-list [events]="events" />
+}

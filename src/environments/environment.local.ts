@@ -1,4 +1,4 @@
 export const environment = {
   production: false,
-  apiPath: 'https://bogam.prootrecords.com/api/api',
+  apiPath: 'http://localhost:8000/api',
 };

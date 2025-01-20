@@ -1,1 +1,13 @@
-<p>event-list works!</p>
+<h2>Events to come</h2>
+
+@for (event of events; track $index) {
+<mat-card appearance="outlined">
+  <mat-card-header>
+    <mat-card-title>{{ event.title }}</mat-card-title>
+    <mat-card-subtitle>{{ event.startDatetime }}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-actions>
+    <button mat-button>Details</button>
+  </mat-card-actions>
+</mat-card>
+}

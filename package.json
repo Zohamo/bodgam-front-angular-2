@@ -1,6 +1,7 @@
 {
   "name": "bodgam-front-angular-2",
   "version": "0.0.0",
+  "description": "Huge Meeple Collider.",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -20,6 +21,7 @@
     "@angular/platform-browser": "^19.1.0",
     "@angular/platform-browser-dynamic": "^19.1.0",
     "@angular/router": "^19.1.0",
+    "moment": "^2.30.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
