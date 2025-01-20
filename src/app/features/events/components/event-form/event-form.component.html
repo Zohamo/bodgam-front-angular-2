@@ -1,0 +1,9 @@
+<form [formGroup]="eventForm" (ngSubmit)="onSubmit()">
+  <label for="name">Name:</label>
+  <input type="text" id="name" formControlName="name" />
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" formControlName="email" />
+
+  <button type="submit" [disabled]="eventForm.invalid">Submit</button>
+</form>

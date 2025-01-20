@@ -1,0 +1,13 @@
+<mat-toolbar class="main-header" color="primary">
+  <mat-toolbar-row>
+    <a mat-raised-button class="site-logo" [routerLink]="['/']">{{ title }}</a>
+    <a
+      mat-button
+      [routerLink]="['/events']"
+      routerLinkActive="active"
+      ariaCurrentWhenActive="page"
+      >Events</a
+    >
+    <a mat-button [routerLink]="['/events/form']">New event</a>
+  </mat-toolbar-row>
+</mat-toolbar>
